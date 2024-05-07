@@ -1137,6 +1137,7 @@ header {
     }
     .create-heading {
         font-size: 21px;
+        padding: 0px 34px;
     }
     .explor-btn{
         font-size: 12px;
