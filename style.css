@@ -1128,9 +1128,17 @@ header {
     }
     .cat-tittle {
         font-size: 18px;
+        font-weight: 400;
     }
-    .choose-cat-heading {
+    .choose-cat-heading{
+        font-size: unset;
+    }
+    .choose-cat-heading .choose_text {
         font-size: 31px;
+    }
+    .choose-cat-heading .inner-heading{
+        font-weight: 400;
+        font-size: 36px;
     }
     .phil-head .to-africa-heading {
         font-size: 31px;
@@ -1160,9 +1168,14 @@ header {
         margin-bottom: 5px;
     }
     .card-product-name {
+        margin-bottom: 7px;
         color: #AD543B;
         font-size: 16px;
     
+    }
+    .ago-text {
+        color: #AD543B;
+        font-size: 12px;
     }
     .card-footer-content img{
         width: 51%;
@@ -1176,8 +1189,25 @@ header {
         
         padding:15px 16px ;
     }
-    .our-seller-heading {
+    .our-seller-heading .customer_heading {
         font-size: 31px;
+    }
+    .our-seller-heading .inner-heading{
+        font-weight: 400;
+        font-size: 36px !important;
+    }
+    .card-name-right .verify-text {
+        color: #CA8D00;
+        font-size: 12px;
+    }
+    .card-name-right .rev-name {
+        color: #AD543B;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .card-content-text {
+        color: #AD543B;
+        font-size: 12px;
     }
     .banner-text {
         width: 100%;
@@ -1248,7 +1278,7 @@ header {
         font-size: 32px;
     }
     .footer-text {
-        font-size: 16px;
+        font-size: 14px;
         text-align: left;
     }
     .footer-content img{
@@ -1256,10 +1286,17 @@ header {
         margin-bottom: 12px;
     }
     .footer-icon{
-        width: 100px!important;
+        width: 67px!important;
+    }
+    .custom_card {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 1em !important;
+        justify-content: space-between;
     }
     .email-box{
         margin-bottom: 20px;
+        font-size: 16px;
     }
     .img-wrap img{
         margin-bottom: 15px;
@@ -1338,6 +1375,13 @@ header {
     .commu-heading {
         font-size: 31px;
     }
+    .lets-heading .inner-content {
+    font-weight: 400;
+    }
+    .commu-heading .inner-heading{
+        font-size: 36px;
+        font-weight: 400;
+    }
     .community-inner-wrap {
         padding: 300px 0;
         background: url(./images/commu-img3.png) no-repeat left 300px bottom -32px, url(./images/commu-img2.png) no-repeat left 0px top 50px, url(./images/commu-img1.png) no-repeat right -30px top, url(./images/commu-img5.png) no-repeat right 10px bottom, url(./images/commu-img4.png) no-repeat left -31px bottom 30px;
@@ -1354,7 +1398,7 @@ header {
     .sign-up-btn {
         background: #765DBA;
         color: #FDFBFF;
-        font-size: 14px;}
+        font-size: 12px;}
     .mobile-cat-sec .card .card-body{
         padding: 0;
         position: relative;
