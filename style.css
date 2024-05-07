@@ -362,6 +362,7 @@ section, footer {
 .footer-title{
     color: #765DBA;
     font-size: 18px;
+    font-weight: 600;
 }
 .footer-menu{
     color: #765DBA;
@@ -1135,7 +1136,44 @@ header {
         font-size: 31px;
     }
     .create-heading {
-        font-size: 22px;
+        font-size: 21px;
+    }
+    .explor-btn{
+        font-size: 12px;
+        padding: 15px 21px;
+    }
+    .slider-wrap span {
+        color: #765DBA;
+        font-size: 12px;}
+    .phil-top-text img{
+        width: 30%;
+    }
+    .time-ago-text img{
+        width: 30% !important;
+
+    }
+    .card-read-more{
+        font-size: 12px;
+    }
+    .time-ago-text{
+        margin-bottom: 5px;
+    }
+    .card-product-name {
+        color: #AD543B;
+        font-size: 16px;
+    
+    }
+    .card-footer-content img{
+        width: 51%;
+    }
+    .our-content-text {
+        font-size: 14px;
+        padding: 8px 23px;
+    }
+    .learn-btn{
+        font-size: 12px;
+        
+        padding:15px 16px ;
     }
     .our-seller-heading {
         font-size: 31px;
@@ -1171,7 +1209,27 @@ header {
         font-size: 30px;
     }
     .two-color-content {
-        font-size: 22px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .two-color-content .inner-content {
+        font-size: 14px;
+        background: -webkit-linear-gradient(#F3BD49, #D48C37);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: unset;
+        color:#AD543B;
+    }
+    .learn_more_btn{
+        margin-top: 20px;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    .Christina-content{
+        margin-top: 30px;
+    }
+    .Christina-inner-text{
+        font-size: 14px;
+        margin-bottom: 0px;
     }
     .african-beauty-heading {
         font-size: 28px;
@@ -1219,10 +1277,11 @@ header {
         bottom: -851px;
     }
     .footer-menu-link {
-        font-size: 15px;
+        font-size: 14px;
     }
     .footer-title {
-        font-size: 17px;
+        font-size: 16px;
+        font-weight: 600;
     }
     .footer-menu {
         font-size: 14px;
@@ -1276,16 +1335,25 @@ header {
         display: none;
     }
     .commu-heading {
-        font-size: 30px;
+        font-size: 31px;
     }
     .community-inner-wrap {
         padding: 300px 0;
         background: url(./images/commu-img3.png) no-repeat left 300px bottom -32px, url(./images/commu-img2.png) no-repeat left 0px top 50px, url(./images/commu-img1.png) no-repeat right -30px top, url(./images/commu-img5.png) no-repeat right 10px bottom, url(./images/commu-img4.png) no-repeat left -31px bottom 30px;
         background-size: 170px;
     }
+    .join-btn {
+        background: #B39EEF;
+        color: #FDFBFF;
+        font-size: 12px;
+        padding: 16px 28px 16px 28px;}
     .mobile-cat-sec .card{
         border: none;
     }
+    .sign-up-btn {
+        background: #765DBA;
+        color: #FDFBFF;
+        font-size: 14px;}
     .mobile-cat-sec .card .card-body{
         padding: 0;
         position: relative;
