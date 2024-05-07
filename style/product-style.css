@@ -597,9 +597,13 @@ header {
         padding: 10px;
     }
     .kenyan select {
-        padding: 18px;
+        padding: 14px;
         width: 100%;
         font-size: 14px;
+    }
+    .add_btn button{
+        font-size: 12px;
+        padding: 13px;
     }
     .inner-cart-wrap {
         flex-direction: column;
@@ -682,8 +686,13 @@ header {
     .product_content h2 {
         font-size: 24px;
     }
+    br{
+        display: none;
+    }
     .product_content p {
         font-size: 14px;
+        line-height: 16px;
+       letter-spacing: 1px;
     }
     .vegan_text {
         color: #765DBA;
@@ -710,9 +719,7 @@ header {
     .mob-video-sec{
         display: flex;
     }
-    .cream_text {
-        display: block;
-    }
+   
 }
 @media (min-width: 768px) {
     .mobile-cat-sec {
